@@ -1,13 +1,12 @@
-"""GitHub Classroom autograding script."""
+"""Autograding script."""
 
 import os
 
 import pandas as pd  # type: ignore
-
 from homework.word_count import run_job
 
 
-def test_word_count():
+def test_01():
     """Test word count job."""
 
     run_job("input/", "output")
